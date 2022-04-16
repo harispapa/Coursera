@@ -126,7 +126,8 @@ textarea {
     width: 46%;
   }
   .row section:nth-child(3) {
-      width: 95.4%;
+    width: 95.4%;
+    height: 190px;
   }
 }
 @media (max-width: 767px) {
@@ -141,7 +142,6 @@ p{
   font-size: 16px;
   padding-top: 10px;
   font-weight: 600;
-  overflow: hidden;
 }
 h1{
   font-size : 75%;
@@ -161,8 +161,10 @@ section{
   background: #d7d7d7;
   border: 2px solid black;
   margin: 15px;
-  padding: 22px;
+  padding: 22px 20px 0 15px;
   position: relative;
+  height: 250px;
+  overflow: hidden;
 }
 .row section:nth-child(1) h3 {
   background: #d59898;
