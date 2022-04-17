@@ -61,6 +61,9 @@ h1{
     font-size: 0.6em;
 }
 /** Header Menu **/
+#header-nav #navList #homeLink{
+    display: none;
+}
 #header-nav #navList{
     justify-content: end;
     position: relative;
@@ -70,15 +73,19 @@ h1{
     text-align: center;
     color: #951C49;
     line-height: 20px;
-    padding: 13px 8px 3px 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
 }
 #header-nav #navList .navbar-nav .nav-item:hover{
     background: var(--hover-anchor-color);
 }
 #header-nav #navList .navbar-nav .nav-item svg{
-    width:30px;
-    height:30px;
-    margin-bottom: -10px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
 }
 #header-nav #telephone{
     font-size: 30px;
@@ -100,6 +107,16 @@ h1{
     font-size: .5em;
     color: var(--third-text-color);
     text-align: right;
+}
+.navbar-light .navbar-toggler{
+    color: var(--fourth-text-color);
+    border-color:  var(--fourth-text-color);
+}
+#header-nav .navbar-header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28097, 18, 47, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#header-nav .navbar-header #navbarToggle:hover{
+    background: var(--hover-anchor-color);
 }
 
 
@@ -144,6 +161,8 @@ h1{
         background: var(--header-bg-color);
         border-top: 1px solid var(--second-text-color);
         top: 4px;
+        margin: 0 -20px;
+        height: 187px;
     }
     #header-nav .navbar-brand a > h1 {
         font-size: 1.6em;
@@ -167,5 +186,30 @@ h1{
         margin: 0;
         height: 80px;
         max-width: 100%;
+    }
+    #header-nav #navList #homeLink{
+        display: flex;
+    }
+    #header-nav #navList .navbar-nav .nav-item a{
+        padding: 3px 0px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    #header-nav #navList .navbar-nav .nav-item {
+        font-size: 1.2em;
+        padding: 2px;
+    }
+    #header-nav .navbar-nav{
+        padding-top: 10px;
+    }
+    #header-nav #navList .navbar-nav .nav-item svg{
+        width: 23px;
+        height: 23px;
+        cursor: pointer;
+        position: relative;
+        left: -10px;
+        top: 5px;
     }
 }
