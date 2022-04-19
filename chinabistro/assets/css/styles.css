@@ -29,7 +29,7 @@ h1{
     height: 170px;
 }
 #header-nav .container{
-    width: 1170px;
+    max-width: 1170px;
 }
 #header-nav .navbar-header{
     display:flex;
@@ -73,7 +73,7 @@ h1{
     text-align: center;
     color: #951C49;
     line-height: 20px;
-    padding: 8px;
+    padding: 7px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,7 @@ h1{
 }
 #header-nav #telephone{
     font-size: 30px;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 #header-nav #navList #telephone:hover{
     background: var(--header-bg-color);
@@ -130,7 +130,7 @@ h1{
     padding: 10px;
     background: var(--header-bg-color);
     font-size: 1.5em;
-    color: var(--main-bg-color);
+    color: #951c49;
     border: 2px solid white;
     border-radius: 4px;
 }
@@ -142,11 +142,65 @@ h1{
 #call-btn span{
     margin-top: 5px;
     color: #fff;
+    font-size:.8em;
 }
 
+/** Slider **/
+.home-slider .container{
+    padding:0;
+    max-width: 95%;
+}
+.home-slider img{
+    border-radius: 2px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 5px solid #3F0C1F;
+    height: auto;
+}
+/** Homepage Cards **/
+.card-group .card {
+    margin: 65px;
+    box-shadow: 0 0 50px #3f0c1f;
+    background-color: #00000087;
+}
+.card-group .card:hover{
+    box-shadow: 0 0 10px #fff;
+    cursor: pointer;
+    transition: box-shadow 3ms;
+}
+.card-group .card .card-title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.card-group .card .card-body{
+    position: relative;
+    top:10px;
+    padding: 0;
+}
 
 /** Media Queries CSS **/
+@media (min-width: 994px){
+    .home-slider .container{
+        width: 1170px;
+        background: url(../../content/images/jumbotron_1200.jpg) no-repeat;
+        background-size: cover;
+        height: 675px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3F0C1F;
+        border-radius: 5px;
+    }
+}
 @media (min-width: 992px) and (max-width: 1199px){
+    #header-nav .container {
+        max-width: 977px;
+    }
     #header-nav {
         height: 110px;
     }
@@ -159,13 +213,15 @@ h1{
         background: url(../../content/images/restaurant-logo_medium.png) no-repeat;
     }
     .navbar-brand {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        margin-left: -8px;
     }
     #header-nav #navList {
         top: -5px;
+        justify-content: start;
     }
     #header-nav #telephone {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     #header-nav #navList #telephone .nav-link {
         padding: 15px 5px 0 5px;
