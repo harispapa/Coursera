@@ -28,9 +28,6 @@ h1{
     background: var(--header-bg-color);
     height: 170px;
 }
-#header-nav .container{
-    max-width: 1170px;
-}
 #header-nav .navbar-header{
     display:flex;
     flex-direction: row;
@@ -157,15 +154,31 @@ h1{
     height: auto;
 }
 /** Homepage Cards **/
+.card-group{
+    padding: 0;
+    margin: 0 auto;
+}
+.card-group .row{
+    padding: 0;
+    margin: 0 auto;
+}
 .card-group .card {
-    margin: 65px;
     box-shadow: 0 0 50px #3f0c1f;
     background-color: #00000087;
+    margin: 14px;
+    border: 2px solid #3F0C1F;
+    padding: 0;
+    overflow: hidden;
 }
 .card-group .card:hover{
     box-shadow: 0 0 10px #fff;
     cursor: pointer;
     transition: box-shadow 3ms;
+}
+.card-group .card .card-body{
+    position: relative;
+    top:10px;
+    padding: 0;
 }
 .card-group .card .card-title {
     position: absolute;
@@ -179,22 +192,52 @@ h1{
     color: #fff;
     opacity: .8;
 }
-.card-group .card .card-body{
-    position: relative;
-    top:10px;
-    padding: 0;
+/** Footer **/
+footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+footer .widget-content ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer blockquote{
+    color: var(--third-text-color);
+    font-style: italic;
+    font-size: 1em;
+}
+footer .widget-title{
+    font-size: 1.3em;
+}
+footer .widget-content span{
+    color: var(--third-text-color);
+    font-size: 0.75em;
+}
+
+footer .copyright{
+    text-align: center;
+    margin:10px auto 0 auto;
 }
 
 /** Media Queries CSS **/
-@media (min-width: 994px){
+@media (min-width: 993px){
+    .container{
+        max-width: 1170px;
+    }
     .home-slider .container{
-        width: 1170px;
+        max-width: 1140px;
         background: url(../../content/images/jumbotron_1200.jpg) no-repeat;
         background-size: cover;
         height: 675px;
         box-shadow: 0 0 50px #3f0c1f;
         border: 2px solid #3F0C1F;
         border-radius: 5px;
+    }
+    .card-group .card {
+        width: 350px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -232,6 +275,15 @@ h1{
         padding: 15px 5px 0 5px;
         margin-right: -5px;
         margin-bottom: 5px;
+    }
+    .card-group{
+        max-width: 1090px;
+    }
+    .card-group .card {
+        margin: 12px;
+    }
+    .card-group .card {
+        width: 300px;
     }
 }
 @media (max-width: 991px) {
@@ -292,5 +344,22 @@ h1{
         position: relative;
         left: -10px;
         top: 5px;
+    }
+    .card-group {
+        max-width: 875px;
+    }
+    .card-group .card{
+        margin: 16px;
+    }
+    .card-group .card:nth-child(1),.card-group .card:nth-child(2) {
+        width: 45%;
+    }
+    .card-group .card:nth-child(3) {
+        width: 96%;
+    }
+}
+@media (max-width: 656px){
+    .card-group .card:nth-child(1),.card-group .card:nth-child(2) {
+        width: 95%;
     }
 }
