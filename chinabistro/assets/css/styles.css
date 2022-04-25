@@ -165,7 +165,7 @@ h1{
 .card-group .card {
     box-shadow: 0 0 50px #3f0c1f;
     background-color: #00000087;
-    margin: 14px;
+    margin: 18px;
     border: 2px solid #3F0C1F;
     padding: 0;
     overflow: hidden;
@@ -222,13 +222,15 @@ footer .copyright{
     margin:10px auto 0 auto;
 }
 
-/** Media Queries CSS **/
-@media (min-width: 993px){
+/***************** Media Queries CSS ******************/
+
+/***************** Large Devices Only *****************/
+@media (min-width: 1200px){
     .container{
         max-width: 1170px;
     }
     .home-slider .container{
-        max-width: 1140px;
+        max-width: 1170px;
         background: url(../../content/images/jumbotron_1200.jpg) no-repeat;
         background-size: cover;
         height: 675px;
@@ -240,7 +242,18 @@ footer .copyright{
         width: 350px;
     }
 }
+
+/***************** Medium Devices Only *****************/
 @media (min-width: 992px) and (max-width: 1199px){
+    .home-slider .container{
+        max-width: 977px;
+        background: url(../../content/images/jumbotron_1200.jpg) no-repeat;
+        background-size: cover;
+        height: 558px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3F0C1F;
+        border-radius: 5px;
+    }
     #header-nav .container {
         max-width: 977px;
     }
@@ -286,7 +299,9 @@ footer .copyright{
         width: 300px;
     }
 }
-@media (max-width: 991px) {
+
+/***************** Small Devices Only *****************/
+@media (min-width: 657px) and (max-width: 991px) {
     #header-nav {
         height: 92px;
     }
@@ -358,6 +373,8 @@ footer .copyright{
         width: 96%;
     }
 }
+
+/***************** Extra Small Devices Only *****************/
 @media (max-width: 656px){
     .card-group .card:nth-child(1),.card-group .card:nth-child(2) {
         width: 95%;

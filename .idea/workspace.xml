@@ -7,6 +7,8 @@
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Finish header responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/nav.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\apache\coursera\chinabistro\content\images" />
@@ -63,6 +66,9 @@
       <workItem from="1650209355916" duration="6000" />
       <workItem from="1650209379117" duration="20978000" />
       <workItem from="1650234477184" duration="55000" />
+      <workItem from="1650760331347" duration="728000" />
+      <workItem from="1650761362405" duration="954000" />
+      <workItem from="1650918445203" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
