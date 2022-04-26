@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/A.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/B.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/CU.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/DK.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/F.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/L.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/NF.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/NL.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/SP.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/V.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/menu/VG.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/awards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/index.php" afterDir="false" />
     </list>
@@ -96,7 +83,7 @@
       <workItem from="1650761362405" duration="954000" />
       <workItem from="1650918445203" duration="93000" />
       <workItem from="1650921713695" duration="194000" />
-      <workItem from="1651006730845" duration="4022000" />
+      <workItem from="1651006730845" duration="5839000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -119,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650921825593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Create content pages of the website.&#10;- Style menu page css.">
+      <created>1651011181122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651011181122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +148,7 @@
     <MESSAGE value="Creating the navbar for the china bistro project!" />
     <MESSAGE value="Finish header responsive" />
     <MESSAGE value="Some stylesheet changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some stylesheet changes" />
+    <MESSAGE value="- Create content pages of the website.&#10;- Style menu page css." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Create content pages of the website.&#10;- Style menu page css." />
   </component>
 </project>

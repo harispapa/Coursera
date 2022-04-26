@@ -81,6 +81,9 @@ h2{
 #header-nav #navList .navbar-nav .nav-item:hover{
     background: var(--hover-anchor-color);
 }
+#header-nav #navList .navbar-nav .active{
+    background: var(--hover-anchor-color);
+}
 #header-nav #navList .navbar-nav .nav-item svg{
     width: 30px;
     height: 30px;
@@ -117,6 +120,7 @@ h2{
 #header-nav .navbar-header #navbarToggle:hover{
     background: var(--hover-anchor-color);
 }
+
 /** Homepage **/
 #call-btn{
     padding: 20px;

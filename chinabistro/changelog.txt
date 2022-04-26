@@ -1,3 +1,10 @@
+Version: 8.0
+    - Make active link dynamic in navbar
+
+Version: 7.0
+    - Create content pages of the website
+    - Style menu page css
+
 Version: 6.0
    - Create the footer section
 
