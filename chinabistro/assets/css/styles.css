@@ -11,8 +11,7 @@
     --second-font-family: 'Lora', serif;
 }
 /** Main Doc Elements CSS **/
-body
-{
+body {
     font-size: 16px;
     font-family: var(--main-font-family);
     color: var(--second-text-color);
@@ -21,6 +20,9 @@ body
 /** Headings **/
 h1{
     font-size: 2em;
+}
+h2{
+    font-size: 1.88em;
 }
 /********************************************/
 /** Header **/
@@ -221,7 +223,46 @@ footer .copyright{
     text-align: center;
     margin:10px auto 0 auto;
 }
-
+/** Menu Page **/
+#menu_page h2,#menu_page .lead{
+    text-align: center;
+}
+#menu_page .lead{
+    font-size:1rem;
+    margin-bottom: 50px;
+}
+#menu_page .plate a{
+    text-decoration: inherit;
+    color: white;
+}
+#menu_page .plate{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+#menu_page .plate:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+    cursor: pointer;
+}
+#menu_page .plate img {
+    width: 200px;
+    height: 200px;
+}
+#menu_page .plate .plate-title{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
 /***************** Media Queries CSS ******************/
 
 /***************** Large Devices Only *****************/
