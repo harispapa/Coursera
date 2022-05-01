@@ -7,7 +7,6 @@
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/single_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/single_menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1650921713695" duration="194000" />
       <workItem from="1651006730845" duration="6125000" />
       <workItem from="1651353093054" duration="1946000" />
-      <workItem from="1651409092844" duration="14018000" />
+      <workItem from="1651409092844" duration="15461000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651430325526</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix some css issues">
+      <created>1651431316984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651431316984</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +189,7 @@
     <MESSAGE value="Create module3 solution" />
     <MESSAGE value="Change some css to make the layout more responsive." />
     <MESSAGE value="Create single menu item page template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create single menu item page template" />
+    <MESSAGE value="Fix some css issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some css issues" />
   </component>
 </project>
