@@ -267,6 +267,70 @@ footer .copyright{
     color: #fff;
     opacity: .8;
 }
+
+/** Single Item Page **/
+#single_menu_page .row{
+    justify-content: center;
+}
+#single_menu_page hr{
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 1;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+#single_menu_page h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#single_menu_page h3{
+    font-size: 24px;
+}
+#single_menu_page .lead{
+    font-size: 16px;
+}
+#single_menu_page .img-responsive{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+#single_menu_page .menu-item-photo {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+#single_menu_page .menu-item-photo span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+#single_menu_page .menu-item-details{
+    font-size: .9em;
+    font-style: italic;
+}
+#single_menu_page .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    position: relative;
+    left: 15px;
+}
+
+#single_menu_page .menu-item-price span{
+    font-size: .6em;
+}
+
 /***************** Media Queries CSS ******************/
 
 /***************** Large Devices Only *****************/
@@ -416,6 +480,20 @@ footer .copyright{
     }
     .card-group .card:nth-child(3) {
         width: 96%;
+    }
+    #single_menu_page .row{
+        text-align: center;
+    }
+    #single_menu_page .menu-item-photo{
+        margin: 20px auto;
+    }
+    #single_menu_page h3{
+        margin: 10px 0;
+    }
+    #single_menu_page .menu-item-price{
+        text-align: center;
+        margin: -10px auto 0 auto;
+        padding: 0;
     }
 }
 

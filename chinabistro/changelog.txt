@@ -1,3 +1,6 @@
+Version: 9.0
+    - Create single menu item page template
+
 Version: 8.0
     - Make active link dynamic in navbar
 
