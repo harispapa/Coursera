@@ -1,6 +1,6 @@
 Version: 9.0
     - Create single menu item page template
-
+    - Fix some css issues
 Version: 8.0
     - Make active link dynamic in navbar
 

@@ -407,6 +407,7 @@ footer .copyright{
     .card-group .card {
         width: 300px;
     }
+
 }
 
 /***************** Small Devices Only *****************/
@@ -481,6 +482,8 @@ footer .copyright{
     .card-group .card:nth-child(3) {
         width: 96%;
     }
+}
+@media (max-width: 767px){
     #single_menu_page .row{
         text-align: center;
     }
