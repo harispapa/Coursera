@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Fix some css issues - on extra extra small devices">
-      <change afterPath="$PROJECT_DIR$/DOM/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/IIFEs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/closures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/constucts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/namespaces.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/passing_variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/scopes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacript/types.js" afterDir="false" />
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DOM/ajax-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOM/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOM/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOM/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOM/DIM.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/DOM.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +42,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="27qgY1KcVXLMvo6Xd6tICi4KKZB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,7 +80,10 @@
       <recent name="$PROJECT_DIR$/chinabistro/content/images/menu" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.ajax.html">
+    <configuration name="ajax.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/coursera/DOM/ajax.html">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/coursera/DOM/index.html">
       <method v="2" />
     </configuration>
@@ -95,19 +93,16 @@
     <configuration name="IIFEs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/IIFEs.js" working-dir="$PROJECT_DIR$/javacript">
       <method v="2" />
     </configuration>
-    <configuration name="arrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/arrays.js" working-dir="$PROJECT_DIR$/javacript">
-      <method v="2" />
-    </configuration>
     <configuration name="namespaces.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/namespaces.js" working-dir="$PROJECT_DIR$/javacript">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.ajax.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.IIFEs.js" />
         <item itemvalue="Node.js.namespaces.js" />
-        <item itemvalue="Node.js.arrays.js" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +129,7 @@
       <workItem from="1651495945189" duration="8516000" />
       <workItem from="1651523623127" duration="1963000" />
       <workItem from="1651527478030" duration="1004000" />
-      <workItem from="1651607693503" duration="4098000" />
+      <workItem from="1651607693503" duration="7075000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -220,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651610283924</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create some event listeners">
+      <created>1651611915136</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651611915136</updated>
+    </task>
+    <task id="LOCAL-00014" summary="All Coursera Week 4 Modules">
+      <created>1651611960856</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651611960856</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +273,9 @@
     <MESSAGE value="Fix some css issues - on extra extra small devices" />
     <MESSAGE value="Creating the module4-solution" />
     <MESSAGE value="Add a text to the user index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a text to the user index.html" />
+    <MESSAGE value="Create some event listeners" />
+    <MESSAGE value="All Coursera Week 4 Modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Coursera Week 4 Modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,12 +284,6 @@
           <url>file://$PROJECT_DIR$/javacript/passing_variables.js</url>
           <line>44</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/DOM/DOM.js</url>
-          <line>2</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
