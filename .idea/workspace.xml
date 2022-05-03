@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Fix some css issues - on extra extra small devices">
+      <change afterPath="$PROJECT_DIR$/javacript/IIFEs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/arrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/closures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/constucts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/namespaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/passing_variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/scopes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javacript/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4-solution/SpeakGoodBye.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4-solution/SpeakHello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4-solution/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4-solution/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/assets/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,30 +54,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Applications/MAMP/htdocs/coursera/module3-solution",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/MAMP/htdocs/coursera/module3-solution&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module3-solution" />
       <recent name="C:\xampp\htdocs\apache\coursera\chinabistro\content\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module4-solution" />
       <recent name="$PROJECT_DIR$/chinabistro/content/images/items" />
       <recent name="$PROJECT_DIR$/chinabistro/content/images/menu" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coursera/module4-solution/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="IIFEs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/IIFEs.js" working-dir="$PROJECT_DIR$/javacript">
+      <method v="2" />
+    </configuration>
+    <configuration name="arrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/arrays.js" working-dir="$PROJECT_DIR$/javacript">
+      <method v="2" />
+    </configuration>
+    <configuration name="namespaces.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/namespaces.js" working-dir="$PROJECT_DIR$/javacript">
+      <method v="2" />
+    </configuration>
+    <configuration name="passing_variables.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/passing_variables.js" working-dir="$PROJECT_DIR$/javacript">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.IIFEs.js" />
+        <item itemvalue="Node.js.namespaces.js" />
+        <item itemvalue="Node.js.arrays.js" />
+        <item itemvalue="Node.js.passing_variables.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +126,11 @@
       <workItem from="1650921713695" duration="194000" />
       <workItem from="1651006730845" duration="6125000" />
       <workItem from="1651353093054" duration="1946000" />
-      <workItem from="1651409092844" duration="15461000" />
+      <workItem from="1651409092844" duration="15732000" />
+      <workItem from="1651495945189" duration="8516000" />
+      <workItem from="1651523623127" duration="1963000" />
+      <workItem from="1651527478030" duration="1004000" />
+      <workItem from="1651607693503" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -149,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651431316984</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix some css issues - on extra extra small devices">
+      <created>1651432567016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651432567016</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +243,30 @@
     <MESSAGE value="Change some css to make the layout more responsive." />
     <MESSAGE value="Create single menu item page template" />
     <MESSAGE value="Fix some css issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some css issues" />
+    <MESSAGE value="Fix some css issues - on extra extra small devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some css issues - on extra extra small devices" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/javacript/passing_variables.js</url>
+          <line>44</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/module4-solution/script.js</url>
+          <line>36</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/module4-solution/script.js</url>
+          <line>51</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
