@@ -15,11 +15,9 @@
       <change afterPath="$PROJECT_DIR$/javacript/passing_variables.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javacript/scopes.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javacript/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4-solution/SpeakGoodBye.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4-solution/SpeakHello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4-solution/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4-solution/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4-solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4-solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4-solution/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/module4-solution/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="harispapa &lt;harilaos.papamattheou@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -130,7 +133,7 @@
       <workItem from="1651495945189" duration="8516000" />
       <workItem from="1651523623127" duration="1963000" />
       <workItem from="1651527478030" duration="1004000" />
-      <workItem from="1651607693503" duration="1008000" />
+      <workItem from="1651607693503" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -202,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651432567016</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creating the module4-solution">
+      <created>1651608870725</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651608870725</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +254,8 @@
     <MESSAGE value="Create single menu item page template" />
     <MESSAGE value="Fix some css issues" />
     <MESSAGE value="Fix some css issues - on extra extra small devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some css issues - on extra extra small devices" />
+    <MESSAGE value="Creating the module4-solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating the module4-solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,18 +264,6 @@
           <url>file://$PROJECT_DIR$/javacript/passing_variables.js</url>
           <line>44</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/module4-solution/script.js</url>
-          <line>36</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/module4-solution/script.js</url>
-          <line>51</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
