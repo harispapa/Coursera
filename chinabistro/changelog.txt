@@ -1,3 +1,6 @@
+Version: 11.0
+    -Fix mobile menu to be hide with screen is < 768 and the user scrolls down
+
 Version: 10.0
     -Fix some css issues - on extra extra small devices
 
