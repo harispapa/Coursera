@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DOM/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/categories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOM/ajax-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/ajax-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOM/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/assets/js/custom_lib/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/assets/js/custom_lib/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/inc/main_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,6 +76,7 @@
       <recent name="C:\xampp\htdocs\apache\coursera\chinabistro\content\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chinabistro/content/images" />
       <recent name="$PROJECT_DIR$/module4-solution" />
       <recent name="$PROJECT_DIR$/chinabistro/content/images/items" />
       <recent name="$PROJECT_DIR$/chinabistro/content/images/menu" />
@@ -129,6 +132,8 @@
       <workItem from="1651523623127" duration="1963000" />
       <workItem from="1651527478030" duration="1004000" />
       <workItem from="1651607693503" duration="7670000" />
+      <workItem from="1651702100901" duration="301000" />
+      <workItem from="1651702487207" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -235,11 +240,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651618335813</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="DOM manipulations and Ajax examples">
+      <created>1651702265215</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651702265215</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
