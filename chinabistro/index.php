@@ -14,11 +14,16 @@ switch($action){
         $activeMenu= 1;
         include("includes/themes/simple_theme/nav.html");
         include("includes/themes/simple_theme/main.html");
+        include("includes/themes/simple_theme/footer.html");
+        exit();
      break;
      case 'menu':
        $activeMenu= 2;
        include("includes/themes/simple_theme/nav.html");
        include("includes/themes/simple_theme/menu.html");
+       include("includes/themes/simple_theme/footer.html");
+       echo '<script>$dc.loadMenuCategories()</script>';
+       exit();
      break;
      case 'about':
        $activeMenu= 3;
@@ -31,6 +36,4 @@ switch($action){
         include("includes/themes/simple_theme/awards.html");
      break;
 }
-
-include("includes/themes/simple_theme/footer.html");
 ?>

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chinabistro/content/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/categories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/assets/js/custom_lib/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/assets/js/custom_lib/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/inc/main_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <recent name="$PROJECT_DIR$/chinabistro/content/images/menu" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ajax.html">
+  <component name="RunManager" selected="Node.js.custom.js">
     <configuration name="ajax.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/coursera/DOM/ajax.html">
       <method v="2" />
     </configuration>
@@ -95,16 +94,16 @@
     <configuration name="IIFEs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/IIFEs.js" working-dir="$PROJECT_DIR$/javacript">
       <method v="2" />
     </configuration>
-    <configuration name="namespaces.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javacript/namespaces.js" working-dir="$PROJECT_DIR$/javacript">
+    <configuration name="custom.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chinabistro/assets/js/custom_lib/custom.js" working-dir="$PROJECT_DIR$/chinabistro/assets/js/custom_lib">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.custom.js" />
         <item itemvalue="JavaScript Debug.ajax.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.IIFEs.js" />
-        <item itemvalue="Node.js.namespaces.js" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +132,8 @@
       <workItem from="1651527478030" duration="1004000" />
       <workItem from="1651607693503" duration="7670000" />
       <workItem from="1651702100901" duration="301000" />
-      <workItem from="1651702487207" duration="3308000" />
+      <workItem from="1651702487207" duration="3826000" />
+      <workItem from="1651869550708" duration="5381000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651702265215</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create Ajax Loading on categories menus">
+      <created>1651706613881</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651706613881</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +311,8 @@
     <MESSAGE value="Create some event listeners" />
     <MESSAGE value="All Coursera Week 4 Modules" />
     <MESSAGE value="DOM manipulations and Ajax examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM manipulations and Ajax examples" />
+    <MESSAGE value="Create Ajax Loading on categories menus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Ajax Loading on categories menus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
