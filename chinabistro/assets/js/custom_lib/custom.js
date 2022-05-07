@@ -31,6 +31,7 @@ let insertProperty = function (string, propName, propValue) {
     let categoriesContent = "includes/themes/simple_theme/content/categories.html";
     let menuItemContent = "includes/themes/simple_theme/content/item.html";
     let allCategoriesMenu = "https://davids-restaurant.herokuapp.com/categories.json";
+    let allCategoryMenuItems = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 
     // On Homepage load menu main categories (before images or css):
     document.addEventListener("DOMContentLoaded", function (event) {
@@ -62,7 +63,7 @@ let insertProperty = function (string, propName, propValue) {
         // Build Html for categories page based on the data from the server:
         function buildCategoriesViewHtml(categories,categoriesContent) {
             let categoriesHtml = '';
-            for (let i = 0; i<categories.length-8; i++){
+            for (let i = 0; i<categories.length; i++){
                 let name = categories[i].name;
                 let short_name = categories[i].short_name;
                 let html = insertProperty(categoriesContent, "name", name);
@@ -76,10 +77,10 @@ let insertProperty = function (string, propName, propValue) {
     // Load the menu categories view (before images or css):
     dc.loadMenuSingleItems = function () {
         // Show loading on category page:
-        showLoading("#menu_page .row");
+        showLoading("#single_menu_page .menu-items .row");
 
         // Make the Ajax API call:
-        $ajaxUtils.sendGetRequest(menuItemContent, showItemsHTMl);
+        $ajaxUtils.sendGetRequest(allCategoryMenuItems+document.querySelector("#category_short_name").textContent, showItemsHTMl);
 
         // Show Html for categories page based on the data from the server:
         function showItemsHTMl (menuItems) {
@@ -91,13 +92,25 @@ let insertProperty = function (string, propName, propValue) {
         }
 
         // Build Html for categories page based on the data from the server:
-        function buildItemsViewHtml(menuItems,menuItemContent) {
+        function buildItemsViewHtml(Items,menuItemContent) {
+            let menuCategory = Items.category.short_name;
+            let menuItems = Items.menu_items;
             let itemsHtml = '';
-            for (let i = 0; i<menuItems.length-8; i++){
-                // let name = categories[i].name;
-                // let short_name = categories[i].short_name;
-                // let html = insertProperty(menuItemContent, "name", name);
-                // html = insertProperty(html,"short_name", short_name);
+            for (let i = 0; i<menuItems.length; i++){
+                let name = menuItems[i].name;
+                let short_name = menuItems[i].short_name;
+                let price_small = menuItems[i].price_small;
+                if (price_small === null) price_small = 0;
+                let price_large = menuItems[i].price_large;
+                if (price_large === null) price_large = 0;
+                let description= menuItems[i].description;
+                let html = insertProperty(menuItemContent, "name", name);
+                html = insertProperty(html,"price_small", price_small);
+                html = insertProperty(html,"short_name", short_name);
+                html = insertProperty(html,"price_large", price_large);
+                html = insertProperty(html,"description", description);
+                html = insertProperty(html,"number", i);
+                html = insertProperty(html,"category_short_name", menuCategory);
                 itemsHtml+=html;
             }
             return itemsHtml;

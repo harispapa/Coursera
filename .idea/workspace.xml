@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Create Ajax Loading on categories menus completed">
-      <change afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/item.html" afterDir="false" />
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Create Ajax Loading on categories items menus completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/assets/js/custom_lib/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/assets/js/custom_lib/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/content/images/items/L1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/content/images/items/L9.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/content/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/single_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/includes/themes/simple_theme/single_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinabistro/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/chinabistro/menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Applications/MAMP/htdocs/coursera/module5-solution&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/MAMP/htdocs/coursera/chinabistro/content/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,6 +77,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chinabistro/content/images" />
       <recent name="$PROJECT_DIR$/module5-solution" />
       <recent name="$PROJECT_DIR$/chinabistro/content/images/menu" />
       <recent name="$PROJECT_DIR$/module3-solution" />
@@ -139,6 +144,8 @@
       <workItem from="1651702487207" duration="3826000" />
       <workItem from="1651869550708" duration="8368000" />
       <workItem from="1651945586389" duration="3421000" />
+      <workItem from="1651949185815" duration="4631000" />
+      <workItem from="1651953966881" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -273,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651948533380</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Create Ajax Loading on categories menus completed, Add menu images!">
+      <created>1651949329682</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651949329682</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +347,8 @@
     <MESSAGE value="Create Ajax Loading on categories menus" />
     <MESSAGE value="Create Ajax Loading on categories menus completed" />
     <MESSAGE value="Finish the module 5 assigment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish the module 5 assigment" />
+    <MESSAGE value="Create Ajax Loading on categories menus completed, Add menu images!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Ajax Loading on categories menus completed, Add menu images!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
