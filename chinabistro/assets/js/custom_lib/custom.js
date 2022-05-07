@@ -29,9 +29,10 @@ let insertProperty = function (string, propName, propValue) {
     let dc = {};
     let homeMainContent   = "includes/themes/simple_theme/content/home.html";
     let categoriesContent = "includes/themes/simple_theme/content/categories.html";
+    let menuItemContent = "includes/themes/simple_theme/content/item.html";
     let allCategoriesMenu = "https://davids-restaurant.herokuapp.com/categories.json";
 
-    // On page load (before images or css)
+    // On Homepage load menu main categories (before images or css):
     document.addEventListener("DOMContentLoaded", function (event) {
         // On first load, show home view
         showLoading("#home_page");
@@ -41,41 +42,67 @@ let insertProperty = function (string, propName, propValue) {
         }, false);
     });
 
-    // Load the menu categories view:
+    // Load the menu categories view (before images or css):
     dc.loadMenuCategories = function () {
+        // Show loading on category page:
         showLoading("#menu_page .row");
-        $ajaxUtils.sendGetRequest(allCategoriesMenu, buildAndShowCategoriesHTMl);
+
+        // Make the Ajax API call:
+        $ajaxUtils.sendGetRequest(allCategoriesMenu, showCategoriesHTMl);
+
+        // Show Html for categories page based on the data from the server:
+         function showCategoriesHTMl (allCategoriesMenu) {
+            // Load categories template page from server and wait to get the file:
+            $ajaxUtils.sendGetRequest(categoriesContent, function (categoriesContent) {
+                let categoriesHtml = buildCategoriesViewHtml(allCategoriesMenu, categoriesContent);
+                insertHtml("#menu_page .row",categoriesHtml);
+            }, false);
+        }
+
+        // Build Html for categories page based on the data from the server:
+        function buildCategoriesViewHtml(categories,categoriesContent) {
+            let categoriesHtml = '';
+            for (let i = 0; i<categories.length-8; i++){
+                let name = categories[i].name;
+                let short_name = categories[i].short_name;
+                let html = insertProperty(categoriesContent, "name", name);
+                html = insertProperty(html,"short_name", short_name);
+                categoriesHtml+=html;
+            }
+            return categoriesHtml;
+        }
     };
 
-    // Show Html for categories page based on the data from the server:
-    function buildAndShowCategoriesHTMl(categories) {
-        $ajaxUtils.sendGetRequest(categoriesContent, function (categoriesContent) {
-            let categoriesHtml = buildCategoriesViewHtml(categories);
-            insertHtml("#menu_page .row",categoriesHtml);
-        }, false);
-    }
+    // Load the menu categories view (before images or css):
+    dc.loadMenuSingleItems = function () {
+        // Show loading on category page:
+        showLoading("#menu_page .row");
 
-    // Build Html for categories page based on the data from the server:
-    function buildCategoriesViewHtml(categories) {
-        let categoryHtml = '<div class="col-lg-3 col-md-4 col-sm-6">\n' +
-            '    <div class="plate">\n' +
-            '        <img src="content/images/menu/{{short_name}}.jpeg" alt="{{name}}">\n' +
-            '        <div class="plate-title">\n' +
-            '            <a href="menu.php?name={{short_name}}.jpeg">{{name}}</a>\n' +
-            '        </div>\n' +
-            '    </div>\n' +
-            '</div>';
+        // Make the Ajax API call:
+        $ajaxUtils.sendGetRequest(menuItemContent, showItemsHTMl);
 
-        let categoriesHtml = '';
-        for (let i = 0; i<categories.length-8; i++){
-            let name = categories[i].name;
-            let short_name = categories[i].short_name;
-            let html = insertProperty(categoryHtml, "name", name);
-            html = insertProperty(html,"short_name", short_name);
-            categoriesHtml+=html;
+        // Show Html for categories page based on the data from the server:
+        function showItemsHTMl (menuItems) {
+            // Load categories template page from server and wait to get the file:
+            $ajaxUtils.sendGetRequest(menuItemContent, function (menuItemContent) {
+                let menuItemsHtml = buildItemsViewHtml(menuItems, menuItemContent);
+                insertHtml("#single_menu_page .menu-items .row",menuItemsHtml);
+            }, false);
         }
-        return categoriesHtml;
-    }
+
+        // Build Html for categories page based on the data from the server:
+        function buildItemsViewHtml(menuItems,menuItemContent) {
+            let itemsHtml = '';
+            for (let i = 0; i<menuItems.length-8; i++){
+                // let name = categories[i].name;
+                // let short_name = categories[i].short_name;
+                // let html = insertProperty(menuItemContent, "name", name);
+                // html = insertProperty(html,"short_name", short_name);
+                itemsHtml+=html;
+            }
+            return itemsHtml;
+        }
+    };
 
     global.$dc = dc;
 })(window);

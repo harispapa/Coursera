@@ -1,37 +1,30 @@
+Version: 12.0
+    -Create Ajax Loading on categories menus completed
 Version: 11.0
     -Fix mobile menu to be hide with screen is < 768 and the user scrolls down
-
 Version: 10.0
     -Fix some css issues - on extra extra small devices
-
 Version: 9.0
     - Create single menu item page template
     - Fix some css issues
 Version: 8.0
     - Make active link dynamic in navbar
-
 Version: 7.0
     - Create content pages of the website
     - Style menu page css
-
 Version: 6.0
    - Create the footer section
-
 Version: 5.0
    - Create the home card section
    - Fix home card responsive
    - Fix header's, slider's, home tiles' responsive
-
 Version: 4.0
    - Create the home card section
    - Fix slider responsive
-
 Version: 3.0
    - Create the slider section
    - Fix header responsive
-
 Version: 2.0
    - Create the header section
-
 Version: 1.0
   - Initial Release
