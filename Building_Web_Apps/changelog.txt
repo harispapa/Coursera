@@ -1,0 +1,3 @@
+Version: 1.0 - Initial Release
+  -- Create main repository structure
+  -- Adding necessary Libraries (Bootstrap, Ajax, jQuery, jQueryUI)
