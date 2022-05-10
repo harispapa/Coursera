@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // called buildAndShowHomeHTML that will receive all the categories from the server
 // and process them: choose random category, retrieve home HTML snippet, insert that
 // random category into the home HTML snippet, and then insert that snippet into our
-// main page (index.html).
+// main page (file.php).
 //
 // TODO: STEP 1: Substitute [...] below with the *value* of the function buildAndShowHomeHTML,
 // so it can be called when server responds with the categories data.
