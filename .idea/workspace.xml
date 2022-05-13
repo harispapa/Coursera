@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Install Simple PHP Theme">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/assets/css/blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/expressions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/fail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/firstapp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/includes/themes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/variables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/guess.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_CSS_Javascript/module5-solution/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS_Javascript/module5-solution/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,30 +60,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Applications/MAMP/htdocs/coursera/Building_Web_Apps/content&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/apache",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "web.server",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Building_Web_Apps/content" />
@@ -177,6 +156,8 @@
       <workItem from="1652212796045" duration="3287000" />
       <workItem from="1652216748108" duration="123000" />
       <workItem from="1652216902726" duration="71000" />
+      <workItem from="1652429701425" duration="85000" />
+      <workItem from="1652433160148" duration="2449000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
