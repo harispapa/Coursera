@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Install Simple PHP Theme">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/assets/css/blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/expressions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/fail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/firstapp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/includes/themes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/variables.php" afterDir="false" />
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_CSS_Javascript/module5-solution/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS_Javascript/module5-solution/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/rps/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/rps/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/rps/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/rps/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +45,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="46351be0-7e55-48fe-a5b9-80b5bfa15306" name="localhost" port="8888" />
@@ -104,11 +93,11 @@
       <recent name="$PROJECT_DIR$/module5-solution" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Building_Web_Apps/rps" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/assets/css" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/includes/themes" />
       <recent name="$PROJECT_DIR$/HTML_CSS_Javascript" />
-      <recent name="$PROJECT_DIR$/chinabistro/content/images" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.file.php">
@@ -346,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652023332642</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Initiate rps app">
+      <created>1652612090750</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652612090750</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +407,8 @@
     <MESSAGE value="Fix repository contents and files" />
     <MESSAGE value="Create new repository for &quot;Building Web Applications in PHP&quot; course." />
     <MESSAGE value="Install Simple PHP Theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install Simple PHP Theme" />
+    <MESSAGE value="Initiate rps app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initiate rps app" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
