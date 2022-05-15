@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Create guess app">
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/crack/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/crack/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/crack/makepin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/crack/md5.php" afterDir="false" />
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Install Simple PHP Theme">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/assets/css/blocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/expressions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/fail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/firstapp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/includes/themes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Web_Apps/variables.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS_Javascript/module5-solution/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS_Javascript/module5-solution/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +55,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="46351be0-7e55-48fe-a5b9-80b5bfa15306" name="localhost" port="8888" />
-      <server host="localhost" id="8cb95bbb-62df-4ec4-b4b8-3b5fb3ae3d93" name="localhost (1)" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0.8" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -65,16 +73,26 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/php/ext/php_xdebug-3.1.2-8.1-vs16-x86_64.dll&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/MAMP/htdocs/coursera/Building_Web_Apps/content&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -86,26 +104,21 @@
       <recent name="$PROJECT_DIR$/module5-solution" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\apache\Building_Web_Apps\crack" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/assets/css" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/includes/themes" />
       <recent name="$PROJECT_DIR$/HTML_CSS_Javascript" />
+      <recent name="$PROJECT_DIR$/chinabistro/content/images" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
+  <component name="RunManager" selected="JavaScript Debug.file.php">
     <configuration name="file.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/coursera/Building_Web_Apps/file.php">
       <method v="2" />
     </configuration>
-    <configuration name="expressions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Building_Web_Apps/expressions.php">
+    <configuration name="custom.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HTML_CSS_Javascript/chinabistro/assets/js/custom_lib/custom.js" working-dir="$PROJECT_DIR$/HTML_CSS_Javascript/chinabistro/assets/js/custom_lib">
       <method v="2" />
     </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Building_Web_Apps/crack/index.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 8" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
+    <configuration name="expressions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Building_Web_Apps/expressions.php">
       <method v="2" />
     </configuration>
     <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
@@ -121,7 +134,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.index.php" />
         <item itemvalue="JavaScript Debug.file.php" />
       </list>
     </recent_temporary>
@@ -165,8 +177,6 @@
       <workItem from="1652212796045" duration="3287000" />
       <workItem from="1652216748108" duration="123000" />
       <workItem from="1652216902726" duration="71000" />
-      <workItem from="1652429701425" duration="85000" />
-      <workItem from="1652433160148" duration="16947000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -336,14 +346,7 @@
       <option name="project" value="LOCAL" />
       <updated>1652023332642</updated>
     </task>
-    <task id="LOCAL-00025" summary="Create guess app">
-      <created>1652435650838</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1652435650838</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,12 +411,7 @@
     <MESSAGE value="Fix repository contents and files" />
     <MESSAGE value="Create new repository for &quot;Building Web Applications in PHP&quot; course." />
     <MESSAGE value="Install Simple PHP Theme" />
-    <MESSAGE value="Create guess app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create guess app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Install Simple PHP Theme" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
