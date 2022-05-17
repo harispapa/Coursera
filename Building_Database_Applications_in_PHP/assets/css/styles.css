@@ -1,0 +1,47 @@
+/** Root Elements CSS **/
+:root{
+    --main-bg-color: #61122f;
+    --main-text-color: #212529;
+    --second-text-color: #fff;
+    --third-text-color:#557c3e;
+    --fourth-text-color: #61122f;
+    --hover-anchor-color: #E7E7E7;
+    --header-bg-color: #f6b319;
+    --main-font-family: 'Oxygen', sans-serif;
+    --second-font-family: 'Lora', serif;
+}
+/** Main Doc Elements CSS **/
+body {
+    font-size: 16px;
+    font-family: var(--main-font-family);
+}
+/** Headings **/
+h1{
+}
+h2{
+}
+/********************************************/
+/** Header **/
+#logo-img{
+    width:32px;
+    height: 32px;
+}
+/***************** Media Queries CSS ******************/
+/***************** Large Devices Only *****************/
+@media (min-width: 1200px){
+    .container{
+        /*max-width: 1170px;*/
+    }
+}
+
+/***************** Medium Devices Only *****************/
+@media (min-width: 992px) and (max-width: 1199px){
+}
+
+/***************** Small Devices Only *****************/
+@media (min-width: 657px) and (max-width: 991px) {
+}
+
+/***************** Extra Small Devices Only *****************/
+@media (max-width: 656px){
+}
