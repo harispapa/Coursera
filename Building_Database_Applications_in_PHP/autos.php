@@ -19,7 +19,7 @@ else{
     else $user = $row;
 }
 
-if ($_POST['logout']){
+if (isset($_POST['logout'])){
     header("Location: index.php");
     exit();
 }
@@ -61,8 +61,9 @@ if (isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage'])) 
         $autos = $pdo->query("SELECT * FROM autos ORDER BY make" );
         echo '<ul>';
         foreach ($autos as $auto)
-            echo "<li>{$auto['year']} {$auto['make']} / {$auto['mileage']}</li>";
+            echo "<li>".htmlentities($auto['year'])." ".htmlentities($auto['make'])." / ".htmlentities($auto['mileage'])."</li>";
         echo '</ul>';
+
     ?>
 </div>
 </body>

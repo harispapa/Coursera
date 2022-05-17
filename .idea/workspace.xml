@@ -5,104 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/css/blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/css/reset2022.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/ajax-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/lib_event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/library_storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/namespaces.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/jquery_full_3.6.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/jquery_min_3.6.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/images/ui-icons_777620_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/images/ui-icons_777777_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/includes/themes/simple_theme/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/includes/themes/simple_theme/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/includes/themes/simple_theme/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/includes/themes/simple_theme/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/pdo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/phpinfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +45,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="46351be0-7e55-48fe-a5b9-80b5bfa15306" name="localhost" port="8888" />
@@ -258,7 +162,8 @@
       <workItem from="1652216748108" duration="123000" />
       <workItem from="1652216902726" duration="71000" />
       <workItem from="1652820445367" duration="1734000" />
-      <workItem from="1652822495432" duration="5254000" />
+      <workItem from="1652822495432" duration="6569000" />
+      <workItem from="1652829161444" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -442,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652614980976</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Create PDO project">
+      <created>1652827858902</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652827858902</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +396,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Creating the navbar for the china bistro project!" />
     <MESSAGE value="Finish header responsive" />
     <MESSAGE value="Some stylesheet changes" />
     <MESSAGE value="- Create content pages of the website.&#10;- Style menu page css." />
@@ -509,7 +420,8 @@
     <MESSAGE value="Install Simple PHP Theme" />
     <MESSAGE value="Initiate rps app" />
     <MESSAGE value="Finish rps app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish rps app" />
+    <MESSAGE value="Create PDO project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create PDO project" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
