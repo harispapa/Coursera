@@ -1,7 +1,5 @@
 <?php // Do not put any HTML above this line
 
-include_once('pdo.php');
-
 if ( isset($_POST['cancel'] ) ) {
     // Redirect the browser to index.php
     header("Location: index.php");
@@ -10,44 +8,33 @@ if ( isset($_POST['cancel'] ) ) {
 
 $salt = 'XyZzy12*_';
 $failure = false;  // If we have no POST data
+$stored_hash = '1a52e17fa899cf40fb04cfc42e6352f1';  // Pw is php123
 
-// Check to see if we have some POST data, if we do process it
-if (isset($_POST['who']) && isset($_POST['pass'])){
+if ( isset($_POST['who']) && isset($_POST['pass']) ) {
     if ( strlen($_POST['who']) < 1 || strlen($_POST['pass']) < 1 )
         $failure = "Email and password are required";
     else if (!strpos($_POST['who'],'@'))
-        $failure = "Email must have an at-sign (@)";
+            $failure = "Email must have an at-sign (@)";
     else {
         $check = hash('md5', $salt.$_POST['pass']);
-        $stmt = $pdo->prepare("SELECT * FROM users WHERE email =:email");
-        $stmt->execute(array(':email' => $_POST['who'] ));
-        $row = $stmt->fetch(PDO::FETCH_ASSOC);
-        if ( $row === FALSE ) {
-            $failure = "No user with this email in our system";
-            error_log("Login fail. No user with email : ".$_POST['who']);
-        }
-        else {
-            if ($check === hash('md5', $salt.$row['password'])) {
-                error_log("Login success " . $_POST['who']);
-
-                // Redirect the browser to autos.php
-                header("Location: autos.php?name=" . urlencode($row['name']));
-                exit();
-            }
-            else{
-                $failure = "Incorrect password";
-                error_log("Login fail. No user with email : ".$_POST['who']." $check");
-            }
+        if ( $check == $stored_hash ) {
+            // Redirect the browser to game.php
+            header("Location: autos.php?name=".urlencode($_POST['who']));
+            return;
+        } else {
+            $failure = "Incorrect password";
+            error_log("Login fail ".$_POST['who']." $check");
         }
     }
 }
+
 // Fall through into the View
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Charilaos Papamatthaiou's Login Page</title>
+<title>Charilaos Papamatthaiou's - 456bb5fa - Login Page</title>
 </head>
 <body>
 <div class="container">

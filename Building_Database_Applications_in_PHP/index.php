@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Charilaos Papamatthaiou - Broken Rock Paper Scissors</title>
+    <title>Charilaos Papamatthaiou - 456bb5fa - Broken Rock Paper Scissors</title>
     <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
