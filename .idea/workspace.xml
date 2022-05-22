@@ -4,35 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Create crack app">
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Update autos app">
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/ajax-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/lib_event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/library_storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/namespaces.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/html5shiv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/jquery_full_3.6.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/jquery_min_3.6.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/content/favicons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sql" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/rps/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/rps/game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/rps/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/rps/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Web_Apps/rps/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Web_Apps/rps/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sql" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +56,12 @@
       <server host="localhost" id="46351be0-7e55-48fe-a5b9-80b5bfa15306" name="localhost" port="8888" />
       <server host="localhost" id="d5086515-5720-4ea9-9dc2-dc75158650ee" name="localhost (1)" use_path_mappings="true">
         <path_mappings>
-          <mapping local-root="$PROJECT_DIR$/Building_Web_Apps/crack" remote-root="C:/xampp/htdocs" />
+          <mapping local-root="$PROJECT_DIR$" remote-root="C:/xampp/htdocs/apache" />
         </path_mappings>
       </server>
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0.8" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -91,30 +71,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Applications/MAMP/htdocs/coursera/Building_Database_Applications_in_PHP&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Applications/MAMP/htdocs/coursera/Building_Database_Applications_in_PHP",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "web.server",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP" />
@@ -124,34 +104,22 @@
       <recent name="$PROJECT_DIR$/Building_Web_Apps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\apache\Building_Database_Applications_in_PHP\autosapp" />
       <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/rps" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/assets/css" />
-      <recent name="$PROJECT_DIR$/Building_Web_Apps/includes/themes" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.file.php">
-    <configuration name="file.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/coursera/Building_Web_Apps/file.php">
+  <component name="RunManager">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/apache/Building_Database_Applications_in_PHP/autosapp/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="custom.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HTML_CSS_Javascript/chinabistro/assets/js/custom_lib/custom.js" working-dir="$PROJECT_DIR$/HTML_CSS_Javascript/chinabistro/assets/js/custom_lib">
-      <method v="2" />
-    </configuration>
-    <configuration name="expressions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Building_Web_Apps/expressions.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="variables.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Building_Web_Apps/variables.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 8.0.8" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <method v="2" />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -195,6 +163,7 @@
       <workItem from="1652820445367" duration="1734000" />
       <workItem from="1652822495432" duration="5254000" />
       <workItem from="1652859765461" duration="3009000" />
+      <workItem from="1653222538932" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -378,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652614980976</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update autos app">
+      <created>1653218117554</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653218117555</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +396,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Creating the navbar for the china bistro project!" />
     <MESSAGE value="Finish header responsive" />
     <MESSAGE value="Some stylesheet changes" />
     <MESSAGE value="- Create content pages of the website.&#10;- Style menu page css." />
@@ -445,7 +420,19 @@
     <MESSAGE value="Install Simple PHP Theme" />
     <MESSAGE value="Initiate rps app" />
     <MESSAGE value="Finish rps app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish rps app" />
+    <MESSAGE value="Update autos app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update autos app" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

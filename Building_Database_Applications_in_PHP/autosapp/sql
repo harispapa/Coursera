@@ -9,22 +9,15 @@ CREATE TABLE users (
    password VARCHAR(128),
    INDEX(email)
 ) ENGINE=InnoDB CHARSET=utf8;
-
 INSERT INTO users (name,email,password) VALUES ('Chuck','csev@umich.edu','php123');
 INSERT INTO users (name,email,password) VALUES ('Glenn','gg@umich.edu','php123');
 
+CREATE TABLE autos (
+  autos_id INTEGER NOT NULL KEY AUTO_INCREMENT,
+  make VARCHAR(255),
+  model VARCHAR(255),
+  year INTEGER,
+  mileage INTEGER
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 SELECT * FROM autos
-
-
-CREATE TABLE autos (
-   auto_id INT UNSIGNED NOT NULL AUTO_INCREMENT KEY,
-   make VARCHAR(128),
-   year INTEGER,
-   mileage INTEGER
-)  ENGINE=InnoDB CHARSET=utf8;;
-
-DELETE FROM autos
-
-
-INSERT INTO autos(make,year,mileage) VALUES

@@ -56,14 +56,14 @@ if ( isset($_SESSION['error']) ) {
 }
 ?>
 <form method="post" action="login.php">
-<label for="nam">Email</label>
+<label for="nam">User Name</label>
 <input type="text" name="email" id="email"><br/>
 <label for="id_1723">Password</label>
-<input type="text" name="pass" id="id_1723"><br/>
-<input type="submit" value="Log In">
-<input type="submit" name="cancel" value="Cancel">
+<input type="text" name="pass" id="pass"><br/>
+<input type="submit" value="Log In"> <a href="index.php">Cancel</a>
+    <p></p>
 </form>
-<p>For a password hint, view source and find an account and password hint in the HTML comments.
+<p>For a password hint, view source and find a password hint in the HTML comments.
     <!-- Hint: The password is the three character name of the programming language used in this class
     (all lower case) followed by 123. -->
 </p>
