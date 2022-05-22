@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sessionsapp/cookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sessionsapp/nocookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sessionsapp/sessfun.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/autos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/pdo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/autos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/autos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652827858902</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Create sessions app">
+      <created>1653213154295</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653213154295</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +407,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Finish header responsive" />
     <MESSAGE value="Some stylesheet changes" />
     <MESSAGE value="- Create content pages of the website.&#10;- Style menu page css." />
     <MESSAGE value="Make active link dynamic in navbar" />
@@ -427,7 +431,8 @@
     <MESSAGE value="Initiate rps app" />
     <MESSAGE value="Finish rps app" />
     <MESSAGE value="Create PDO project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create PDO project" />
+    <MESSAGE value="Create sessions app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create sessions app" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

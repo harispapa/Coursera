@@ -4,9 +4,8 @@ include_once('pdo.php');
 require_once "bootstrap.php";
 
 // Demand a GET parameter
-if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
+if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  )
     die('Name parameter missing');
-}
 
 if (isset($_POST['logout'])){
     header("Location: index.php");
@@ -14,7 +13,7 @@ if (isset($_POST['logout'])){
 }
 
 $failure = false;  // If we have no POST data
-if (isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage'])) {
+if (isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage']))
     if ( strlen($_POST['make']) < 1 )
         $failure = 'Make is required';
     else if ( !is_numeric($_POST['year']) || !is_numeric($_POST['mileage']))
@@ -24,7 +23,6 @@ if (isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage'])) 
         $stmt->execute(array('mk' => $_POST['make'],'yr' => $_POST['year'], 'mi' => $_POST['mileage']));
         $success = "Record inserted";
     }
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
