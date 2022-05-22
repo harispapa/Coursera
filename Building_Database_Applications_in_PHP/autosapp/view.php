@@ -9,7 +9,7 @@ if ( ! isset($_SESSION['name']) )
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Charilaos Papamatthaiou - 456bb5fa - View Page</title>
+    <title>Charilaos Papamatthaiou - 05fc1671 - View Page</title>
     <?php require_once "bootstrap.php"; ?>
 </head>
 <body>

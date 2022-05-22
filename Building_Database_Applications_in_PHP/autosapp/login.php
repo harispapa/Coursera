@@ -26,6 +26,7 @@ if ( isset($_POST['email']) && isset($_POST['pass']) ) {
         if ( $check == $stored_hash ) {
             // Redirect the browser to view.php
             $_SESSION['name'] = $_POST['email'];
+            error_log("Login Suc ".$_POST['email']." $check");
             header("Location: view.php");
             return;
         } else {
@@ -43,7 +44,7 @@ if ( isset($_POST['email']) && isset($_POST['pass']) ) {
 <html lang="en">
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Charilaos Papamatthaiou's - 456bb5fa - Login Page</title>
+<title>Charilaos Papamatthaiou's - 05fc1671 - Login Page</title>
 </head>
 <body>
 <div class="container">
