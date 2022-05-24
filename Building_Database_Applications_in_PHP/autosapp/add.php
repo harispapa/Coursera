@@ -2,7 +2,6 @@
 include_once('pdo.php');
 require_once "bootstrap.php";
 
-session_start();
 if ( ! isset($_SESSION['name']) )
     die('ACCESS DENIED');
 
@@ -10,7 +9,6 @@ if (isset($_POST['cancel'])){
     header("Location: view.php");
     return;
 }
-
 if (isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage']))
     if ( strlen($_POST['make']) < 1 || strlen($_POST['model']) < 1 || strlen($_POST['year']) < 1 || strlen($_POST['mileage']) < 1 ){
         $_SESSION['error'] = 'All fields are required required';

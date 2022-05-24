@@ -4,15 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Update autos app">
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" afterDir="false" />
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/ajax-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/lib_event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/library_storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/custom_lib/namespaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/jquery_full_3.6.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/jquery_min_3.6.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_lib/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js/jquery_ui_lib/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/css/reset2022.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/custom_lib/ajax-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/custom_lib/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/custom_lib/lib_event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/custom_lib/library_storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/custom_lib/namespaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_lib/jquery_full_3.6.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_lib/jquery_min_3.6.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_lib/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js/jquery_ui_lib/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/pdo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sql" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +129,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="46351be0-7e55-48fe-a5b9-80b5bfa15306" name="localhost" port="8888" />
-      <server host="localhost" id="d5086515-5720-4ea9-9dc2-dc75158650ee" name="localhost (1)" use_path_mappings="true">
-        <path_mappings>
-          <mapping local-root="$PROJECT_DIR$" remote-root="C:/xampp/htdocs/apache" />
-        </path_mappings>
-      </server>
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0.8" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -78,7 +151,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Applications/MAMP/htdocs/coursera/Building_Database_Applications_in_PHP",
+    "last_opened_file_path": "/Applications/MAMP/htdocs/coursera/Javascript_jQuery_JSON",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -97,27 +170,44 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Javascript_jQuery_JSON" />
+      <recent name="$PROJECT_DIR$/Javascript_jQuery_JSON/assets/js" />
+      <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP/assets/js" />
       <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP" />
       <recent name="$PROJECT_DIR$/Building Database_Applications_in_PHP " />
-      <recent name="$PROJECT_DIR$/Building_Web_Apps/content" />
-      <recent name="$PROJECT_DIR$/Building_Web_Apps/assets" />
-      <recent name="$PROJECT_DIR$/Building_Web_Apps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\apache\Building_Database_Applications_in_PHP\autosapp" />
+      <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP/sessionsapp" />
+      <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp" />
       <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/rps" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps" />
-      <recent name="$PROJECT_DIR$/Building_Web_Apps/assets/css" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/apache/Building_Database_Applications_in_PHP/autosapp/index.php">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/coursera/Javascript_jQuery_JSON/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="custom.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HTML_CSS_Javascript/chinabistro/assets/js/custom_lib/custom.js" working-dir="$PROJECT_DIR$/HTML_CSS_Javascript/chinabistro/assets/js/custom_lib">
+      <method v="2" />
+    </configuration>
+    <configuration name="expressions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Building_Web_Apps/expressions.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="variables.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Building_Web_Apps/variables.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.0.8" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -161,9 +251,12 @@
       <workItem from="1652216748108" duration="123000" />
       <workItem from="1652216902726" duration="71000" />
       <workItem from="1652820445367" duration="1734000" />
-      <workItem from="1652822495432" duration="5254000" />
-      <workItem from="1652859765461" duration="3009000" />
-      <workItem from="1653222538932" duration="2491000" />
+      <workItem from="1652822495432" duration="6569000" />
+      <workItem from="1652829161444" duration="400000" />
+      <workItem from="1653255590634" duration="92000" />
+      <workItem from="1653341933562" duration="799000" />
+      <workItem from="1653342775733" duration="617000" />
+      <workItem from="1653415189793" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -347,14 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652614980976</updated>
     </task>
-    <task id="LOCAL-00027" summary="Update autos app">
-      <created>1653218117554</created>
+    <task id="LOCAL-00027" summary="Create PDO project">
+      <created>1652827858902</created>
       <option name="number" value="00027" />
       <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1653218117555</updated>
+      <updated>1652827858902</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Create sessions app">
+      <created>1653213154295</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653213154295</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +496,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Finish header responsive" />
     <MESSAGE value="Some stylesheet changes" />
     <MESSAGE value="- Create content pages of the website.&#10;- Style menu page css." />
     <MESSAGE value="Make active link dynamic in navbar" />
@@ -420,19 +519,9 @@
     <MESSAGE value="Install Simple PHP Theme" />
     <MESSAGE value="Initiate rps app" />
     <MESSAGE value="Finish rps app" />
-    <MESSAGE value="Update autos app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update autos app" />
+    <MESSAGE value="Create PDO project" />
+    <MESSAGE value="Create sessions app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create sessions app" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

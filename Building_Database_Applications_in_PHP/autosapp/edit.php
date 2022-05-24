@@ -3,7 +3,7 @@ include_once('pdo.php');
 require_once "bootstrap.php";
 
 session_start();
-if ( ! isset($_SESSION['name']) )
+if (!isset($_SESSION['name']) )
     die('ACCESS DENIED');
 
 if (isset($_POST['cancel'])){
@@ -69,10 +69,10 @@ if (isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage']) &
     }
     ?>
     <form method="post">
-        <p>Make: <input type="text" name="make" id="make" size="40" value="<?php echo $make; ?>"></p>
-        <p>Model: <input type="text" name="model" id="model" size="40" value="<?php echo $model;?>"></p>
-        <p>Year: <input type="text" name="year" id="year" size="10" value="<?php echo $year; ?>"></p>
-        <p>Mileage: <input type="text" name="mileage" id="mileage" size="10" value="<?php echo $mileage; ?>"></p>
+        <p>Make: <input type="text" name="make" id="make" size="40" value="<?php echo $make ?? ''; ?>"></p>
+        <p>Model: <input type="text" name="model" id="model" size="40" value="<?php echo $model ?? '';?>"></p>
+        <p>Year: <input type="text" name="year" id="year" size="10" value="<?php echo $year ?? ''; ?>"></p>
+        <p>Mileage: <input type="text" name="mileage" id="mileage" size="10" value="<?php echo $mileage ?? ''; ?>"></p>
         <input type="submit" name="save" value="Save"> <input type="submit" name="cancel" value="Cancel">
     </form>
 </div>
