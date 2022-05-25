@@ -40,7 +40,7 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
 <html lang="en">
 <head>
     <?php require_once "bootstrap.php"; ?>
-    <title>Charilaos Papamatthaiou's - 05fc1671 - Login Page</title>
+    <title>Charilaos Papamatthaiou's - dc3c3c4e - Login Page</title>
 </head>
 <body>
 <div class="container">
@@ -61,7 +61,7 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
     </form>
     <p>For a password hint, view source and find a password hint in the HTML comments.
         <!-- Hint: The password is the three character name of the programming language used in this class
-        (all lower case) followed by 123. -->
+        (all lower case) followed by 123.umsi@umich.edu -->
     </p>
 </div>
 <script>
