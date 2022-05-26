@@ -10,7 +10,11 @@
 </head>
 <body>
 <div class="container">
-    <h1>Adding Profile for UMSI</h1>
+    <?php if(isset($editPage) && $editPage === true) {?>
+       <h1>Editing Profile for UMSI</h1>
+    <?php } else { ?>
+       <h1>Adding Profile for UMSI</h1>
+    <?php } ?>
     <?php displaySessionsErrors();?>
     <form method="post">
         <p>First Name:
@@ -35,7 +39,17 @@
             </label>
         </p>
         <p> Position: <input id="addPos" type="submit" value="+"></p>
-        <div id="position_fields"></div>
+        <div id="position_fields">
+            <?php if(isset($editPage) && $editPage === true) {?>
+                    <?php foreach($prows as $row) {?>
+                        <div id="position<?php if (isset($row['rank'])) echo $row['rank'];?>">
+                            <p>Year: <input name="year<?php if (isset($row['rank'])) echo $row['rank'];?>" type="text" value="<?php if (isset($row['year'])) echo $row['year'];?>"/>
+                                <input onclick=" $('#position<?php echo $row[" rank type="button"value="-""];?>').remove(); alert('he'); return false;"></p>
+                            <textarea cols="80" name="desc<?php if (isset($row['rank'])) echo $row['rank']; ?>" rows="8"><?php if (isset($row['description'])) echo htmlentities($row['description'])?></textarea>
+                        </div>
+                    <?php } ?>
+            <?php } ?>
+        </div>
         <p>
             <?php if(isset($editPage) && $editPage === true) {?>
                 <input type="submit" value="Save">

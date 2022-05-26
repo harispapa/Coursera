@@ -10,11 +10,9 @@
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/add_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +167,7 @@
       <workItem from="1653222538932" duration="2491000" />
       <workItem from="1653463286910" duration="11550000" />
       <workItem from="1653546891418" duration="3415000" />
+      <workItem from="1653582024882" duration="1751000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -380,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653565346559</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update Profiles app">
+      <created>1653566423030</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653566423030</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,9 +460,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Javascript_jQuery_JSON/add.php</url>
-          <line>10</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/Javascript_jQuery_JSON/functions.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -8,6 +8,9 @@ if (isset($_GET['profile_id']) && is_numeric($_GET['profile_id'])) {
     $stmt = $pdo->prepare('SELECT * FROM profile WHERE profile_id=:pid and user_id=:uid');
     $stmt->execute(array(':uid' => $_SESSION['user_id'], ':pid' => $_GET['profile_id']));
     $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    $stmt = $pdo->prepare('SELECT * FROM position WHERE profile_id=:pid ORDER BY `rank`');
+    $stmt->execute(array(':pid' => $_GET['profile_id']));
+    $prows = $stmt->fetchALL(PDO::FETCH_ASSOC);
 }
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if (isset($_POST['cancel'])){
@@ -31,25 +34,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                 ':he' => $_POST['headline'],
                 ':su' => $_POST['summary'])
         );
-        $profile_id = $pdo->lastInsertId();
-        $rank=0;
-        for($i=1; $i<=9; $i++) {
-            if(isset($_POST['year'.$i]) && isset($_POST['desc'.$i])){
-                $stmt = $pdo->prepare('INSERT INTO position (profile_id, `rank`, year, description) VALUES ( :pid, :rk, :yr, :dc)');
-                $stmt->execute(array(
-                        ':pid' => $profile_id,
-                        ':rk' => $rank,
-                        ':yr' => $_POST['year'.$i],
-                        ':dc' => $_POST['desc'.$i])
-                );
-                $rank++;
-            }
-        }
+        deleteOldPosition($_GET['profile_id']);
+        if ($pdo->lastInsertId() == 0 )
+            postPositionDB($_GET['profile_id']);
+        else
+            postPositionDB($pdo->lastInsertId());
         $_SESSION['success'] = "Record updated";
         header("Location: index.php");
     }
     return;
 }
-
 include_once('add_form.html');
 ?>
