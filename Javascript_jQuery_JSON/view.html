@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charilaos Papamatthaiou's - dc3c3c4e - View Page</title>
+    <?php include_once ('bootstrap.php');?>
+</head>
+<body>
+<div class="container">
+    <h1>Profile information</h1>
+    <p>First Name: <?php if(isset($row['first_name'])) echo htmlentities($row['first_name']); ?></p>
+    <p>Last Name : <?php if(isset($row['last_name']))  echo htmlentities($row['last_name']) ; ?></p>
+    <p>Email:<?php if(isset($row['email'])) echo htmlentities($row['email']); ?></p>
+    <p>Headline: <?php if(isset($row['headline'])) echo htmlentities($row['headline']); ?></p>
+    <p>Summary: <?php if(isset($row['summary'])) echo htmlentities($row['summary']); ?></p>
+    <p>Position:</p>
+    <ul id="position"></ul>
+    <p><a href="index.php">Done</a></p>
+</div>
+</body>
+</html>

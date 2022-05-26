@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php require_once "bootstrap.php"; ?>
+    <?php if(isset($editPage) && $editPage === true) {?>
+        <title>Charilaos Papamatthaiou's - dc3c3c4e - Edit Page</title>
+    <?php } else { ?>
+        <title>Charilaos Papamatthaiou's - dc3c3c4e - Add Page</title>
+    <?php } ?>
+</head>
+<body>
+<div class="container">
+    <h1>Adding Profile for UMSI</h1>
+    <?php displaySessionsErrors();?>
+    <form method="post">
+        <p>First Name:
+            <label>
+                <input name="first_name" size="60" type="text" value="<?php if(isset($row['first_name'])) echo htmlentities($row['first_name']); ?>">
+            </label></p>
+        <p>Last Name:
+            <label>
+                <input name="last_name" size="60" type="text" value="<?php if(isset($row['last_name'])) echo htmlentities($row['last_name']); ?>">
+            </label></p>
+        <p>Email:
+            <label>
+                <input name="email" size="30" type="text" value="<?php if(isset($row['email'])) echo htmlentities($row['email']); ?>">
+            </label></p>
+        <p>Headline:<br>
+            <label>
+                <input name="headline" size="80" type="text" value="<?php if(isset($row['headline'])) echo htmlentities($row['headline']); ?>">
+            </label></p>
+        <p>Summary:<br>
+            <label>
+                <textarea cols="80" name="summary" rows="8"><?php if(isset($row['summary'])) echo htmlentities($row['summary']); ?></textarea>
+            </label>
+        </p>
+        <p> Position: <input id="addPos" type="submit" value="+"></p>
+        <div id="position_fields"></div>
+        <p>
+            <?php if(isset($editPage) && $editPage === true) {?>
+                <input type="submit" value="Save">
+            <?php } else { ?>
+                <input type="submit" value="Add">
+            <?php } ?>
+            <input name="cancel" type="submit" value="Cancel">
+       </p>
+    </form>
+</div>
+<script>
+    let countPos = 0;
+    function addPositionField(event){
+        event.preventDefault();
+        if (countPos >= 9) {
+            alert("Maximum of nine position entries exceeded");
+            return;
+        }
+        countPos++;
+        console.log('Adding position: '+countPos);
+        $('#position_fields').append(
+            '<div id="position' + countPos + '"> \
+             <p>Year: <input type="text" name="year'+countPos+'" value=""/> \
+             <input type="button" value="-" onclick="$(\'#position'+countPos+'\').remove(); return false;"></p> \
+             <textarea name="desc'+countPos+'" cols="80" rows="8"></textarea> \
+             </div>');
+    }
+    $(document).ready(function () {
+        console.log('Document ready called');
+        $('#addPos').click(addPositionField);
+    });
+</script>
+</body>
+</html>

@@ -1,5 +1,7 @@
 <?php
 include_once('pdo.php');
+include_once ('functions.php');
+
 $userLoggedIn = isset($_SESSION['user_id']) ?? false;
 $stmt = $pdo->query('SELECT * FROM profile;');
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -13,11 +15,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 <div class="container">
     <h1>Chuck Severance's Resume Registry</h1>
-    <?php
-    if ( isset($_SESSION['success']) ) {
-    echo('<p style="color: red;">'.htmlentities($_SESSION['success'])."</p>\n");
-    unset($_SESSION['success']);
-    }?>
+    <?php displaySessionsErrors();?>
     <?php if ($userLoggedIn) { ?>
     <p><a href="logout.php">Logout</a></p>
     <table border="1" width="80%">

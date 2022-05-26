@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Update autos app">
-      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php" afterDir="false" />
+    <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Update Profiles app">
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/pdo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "settings.editor.selected.configurable": "web.server",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -167,7 +169,8 @@
       <workItem from="1652822495432" duration="5254000" />
       <workItem from="1652859765461" duration="3009000" />
       <workItem from="1653222538932" duration="2491000" />
-      <workItem from="1653463286910" duration="10868000" />
+      <workItem from="1653463286910" duration="11550000" />
+      <workItem from="1653546891418" duration="3415000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -358,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653218117555</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Update Profiles app">
+      <created>1653479439394</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653479439394</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +410,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Finish header responsive" />
     <MESSAGE value="Some stylesheet changes" />
     <MESSAGE value="- Create content pages of the website.&#10;- Style menu page css." />
     <MESSAGE value="Make active link dynamic in navbar" />
@@ -425,18 +434,12 @@
     <MESSAGE value="Initiate rps app" />
     <MESSAGE value="Finish rps app" />
     <MESSAGE value="Update autos app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update autos app" />
+    <MESSAGE value="Update Profiles app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Profiles app" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
