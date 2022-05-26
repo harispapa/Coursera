@@ -1,3 +1,12 @@
+<?php
+include_once('pdo.php');
+include_once ('functions.php');
+
+$stmt = $pdo->prepare('SELECT * FROM position WHERE profile_id=:pid;');
+$stmt->execute(array( "pid" => $_GET['profile_id']));
+$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +23,12 @@
     <p>Headline: <?php if(isset($row['headline'])) echo htmlentities($row['headline']); ?></p>
     <p>Summary: <?php if(isset($row['summary'])) echo htmlentities($row['summary']); ?></p>
     <p>Position:</p>
-    <ul id="position"></ul>
+    <ul id="position">
+        <?php
+            foreach( $rows as $position)
+                echo '<li>Year:'.$position['year'].': '.htmlentities($position['description']).'<li>';
+        ?>
+    </ul>
     <p><a href="index.php">Done</a></p>
 </div>
 </body>

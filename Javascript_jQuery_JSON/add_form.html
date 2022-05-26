@@ -59,7 +59,7 @@
         $('#position_fields').append(
             '<div id="position' + countPos + '"> \
              <p>Year: <input type="text" name="year'+countPos+'" value=""/> \
-             <input type="button" value="-" onclick="$(\'#position'+countPos+'\').remove(); return false;"></p> \
+             <input type="button" value="-" onclick="$(\'#position'+countPos+'\').remove(); countPos--; return false;"></p> \
              <textarea name="desc'+countPos+'" cols="80" rows="8"></textarea> \
              </div>');
     }
