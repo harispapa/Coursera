@@ -11,6 +11,16 @@ if (isset($_GET['profile_id']) && is_numeric($_GET['profile_id'])) {
     $stmt = $pdo->prepare('SELECT * FROM position WHERE profile_id=:pid ORDER BY `rank`');
     $stmt->execute(array(':pid' => $_GET['profile_id']));
     $prows = $stmt->fetchALL(PDO::FETCH_ASSOC);
+    $stmt = $pdo->prepare('SELECT * FROM education WHERE profile_id=:pid ORDER BY `rank`');
+    $stmt->execute(array(':pid' => $_GET['profile_id']));
+    $erows = $stmt->fetchALL(PDO::FETCH_ASSOC);
+
+    $irows = [];
+    foreach ($erows as $erow){
+        $stmt = $pdo->prepare('SELECT * FROM institution WHERE institution_id=:iid');
+        $stmt->execute(array(':iid' => $erow['institution_id']));
+        $irows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if (isset($_POST['cancel'])){

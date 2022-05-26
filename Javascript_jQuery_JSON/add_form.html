@@ -38,6 +38,22 @@
                 <textarea cols="80" name="summary" rows="8"><?php if(isset($row['summary'])) echo htmlentities($row['summary']); ?></textarea>
             </label>
         </p>
+        <p>Education: <input id="addEdu" type="submit" value="+"></p>
+        <div id="edu_fields">
+            <?php if(isset($editPage) && $editPage === true) {?>
+            <?php foreach($erows as $erow) {?>
+                <?php foreach($irows as $irow) { ?>
+                    <div id="edu_school<?php if (isset($erow['rank'])) echo $erow['rank'];?>">
+                    <p>Year: <input name="edu_year<?php if (isset($erow['rank'])) echo $erow['rank'];?>" type="text" value="<?php if (isset($erow['year'])) echo $erow['year'];?>"/>
+                        <input onclick="$('#edu_school<?php echo $erow['rank'];?>').remove(); return false;"type="button" value="-">
+                    </p>
+                    <p>School: <input  class="school" name="edu_school<?php if (isset($row['rank'])) echo $erow['rank'];?>" size="60" type="text" value="<?php if (isset($irow['name'])) echo $irow['name'];?>">
+                    </p>
+                </div>
+                <?php } ?>
+            <?php } ?>
+            <?php } ?>
+        </div>
         <p> Position: <input id="addPos" type="submit" value="+"></p>
         <div id="position_fields">
             <?php if(isset($editPage) && $editPage === true) {?>
@@ -62,6 +78,22 @@
 </div>
 <script>
     let countPos = 0;
+    let countEdu = 0;
+    function addEducationField(event) {
+        event.preventDefault();
+        if (countEdu >= 9) {
+            alert("Maximum of nine position entries exceeded");
+            return;
+        }
+        countEdu++;
+        console.log('Adding schools: '+countEdu);
+        $('#edu_fields').append(
+            '<div id="edu_school' + countEdu + '"> \
+             <p>Year: <input type="text" name="edu_year'+countEdu+'" value=""/> \
+             <input type="button" value="-" onclick="$(\'#edu_school'+countEdu+'\').remove(); countEdu--; return false;"></p> \
+             <p>School: <input type="text" size="60"  name="edu_school'+countEdu+'" value="" ></p> \
+            </div>');
+    }
     function addPositionField(event){
         event.preventDefault();
         if (countPos >= 9) {
@@ -79,7 +111,11 @@
     }
     $(document).ready(function () {
         console.log('Document ready called');
+        $('.school').autocomplete({
+            source: "school.php"
+        });
         $('#addPos').click(addPositionField);
+        $('#addEdu').click(addEducationField);
     });
 </script>
 </body>

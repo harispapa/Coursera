@@ -39,6 +39,23 @@ function validatePos(): bool|string{
             return "Position year must be numeric";
         }
     }
+
+    for($i=1; $i<=9; $i++) {
+        if ( ! isset($_POST['edu_year'.$i]) ) continue;
+        if ( ! isset($_POST['edu_school'.$i]) ) continue;
+
+        $edu_year = $_POST['edu_year'.$i];
+        $school = $_POST['edu_school'.$i];
+
+        if ( strlen($edu_year) == 0 || strlen($school) == 0 ) {
+            return "All fields are required";
+        }
+
+        if ( ! is_numeric($edu_year) ) {
+            return "Education year must be numeric";
+        }
+    }
+
     return true;
 }
 
@@ -54,13 +71,38 @@ function postPositionDB($profile_id): void{
                     ':pid' => $profile_id,
                     ':rk' => $rank,
                     ':yr' => $_POST['year'.$i],
-                    ':dc' => $_POST['desc'.$i])
-            );
+                    ':dc' => $_POST['desc'.$i]
+            ));
             $rank++;
         }
     }
 }
-
+function postInstitutionDB():int{
+    global $pdo;
+    for($i=1; $i<=9; $i++){
+        if ( ! isset($_POST['edu_school'.$i]) ) continue;
+        $stmt = $pdo->prepare('INSERT INTO institution (name) VALUES ( :nm)');
+        $stmt->execute(array( ':nm' => $_POST['edu_school'.$i]));
+        return $pdo->lastInsertId();
+    }
+}
+function postEducationDB($institution_id, $profile_id):void{
+    global $pdo;
+    $eRank=1;
+    for($i=1; $i<=9; $i++) {
+        if ( ! isset($_POST['edu_year'.$i]) ) continue;
+        if(isset($_POST['edu_year'.$i]) && is_numeric($institution_id)){
+            $stmt = $pdo->prepare('INSERT INTO education (profile_id, `rank`, year, institution_id) VALUES ( :pid, :rk, :yr, :iid)');
+            $stmt->execute(array(
+                    ':pid' => $profile_id,
+                    ':rk' => $erank,
+                    ':yr' => $_POST['year'.$i],
+                    ':iid' => $institution_id
+            ));
+            $eRank++;
+        }
+    }
+}
 function deleteOldPosition($profile_id){
     global $pdo;
     $stmt = $pdo->prepare('DELETE FROM position WHERE profile_id=:pid');

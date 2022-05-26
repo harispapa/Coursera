@@ -24,7 +24,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 ':he' => $_POST['headline'],
                 ':su' => $_POST['summary'])
         );
-        postPositionDB($pdo->lastInsertId());
+        $proNewId = $pdo->lastInsertId();
+        postPositionDB($proNewId);
+        $instituteNewId= postInstitutionDB();
+        postEducationDB($instituteNewId,$proNewId);
         $_SESSION['success'] = "Profile added";
         header("Location: index.php");
     }
