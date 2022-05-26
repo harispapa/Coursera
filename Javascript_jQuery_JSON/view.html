@@ -2,7 +2,7 @@
 include_once('pdo.php');
 include_once ('functions.php');
 
-$stmt = $pdo->prepare('SELECT * FROM position WHERE profile_id=:pid;');
+$stmt = $pdo->prepare('SELECT * FROM position WHERE profile_id=:pid ORDER BY `rank`;');
 $stmt->execute(array( "pid" => $_GET['profile_id']));
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 

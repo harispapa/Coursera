@@ -44,7 +44,7 @@
                     <?php foreach($prows as $row) {?>
                         <div id="position<?php if (isset($row['rank'])) echo $row['rank'];?>">
                             <p>Year: <input name="year<?php if (isset($row['rank'])) echo $row['rank'];?>" type="text" value="<?php if (isset($row['year'])) echo $row['year'];?>"/>
-                                <input onclick=" $('#position<?php echo $row[" rank type="button"value="-""];?>').remove(); alert('he'); return false;"></p>
+                                <input onclick=" $('#position<?php echo $row['rank'];?>').remove(); return false;"type="button" value="-"></p>
                             <textarea cols="80" name="desc<?php if (isset($row['rank'])) echo $row['rank']; ?>" rows="8"><?php if (isset($row['description'])) echo htmlentities($row['description'])?></textarea>
                         </div>
                     <?php } ?>

@@ -8,11 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/add_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="46351be0-7e55-48fe-a5b9-80b5bfa15306" name="localhost" port="8888" />
@@ -167,7 +162,7 @@
       <workItem from="1653222538932" duration="2491000" />
       <workItem from="1653463286910" duration="11550000" />
       <workItem from="1653546891418" duration="3415000" />
-      <workItem from="1653582024882" duration="1751000" />
+      <workItem from="1653582024882" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -386,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653566423030</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update Profiles app">
+      <created>1653583988810</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1653583988810</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,11 +465,6 @@
           <url>file://$PROJECT_DIR$/Javascript_jQuery_JSON/functions.php</url>
           <line>51</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Javascript_jQuery_JSON/edit.php</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
