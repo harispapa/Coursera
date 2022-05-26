@@ -8,9 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header("Location: index.php");
         return;
     }
-    $isFormOk= checkAddEditFormFields();
     $positionVal = validatePos();
-    if (!$isFormOk || is_string($positionVal)){
+    if (is_string($positionVal)){
         header("Location: add.php");
         $_SESSION['error'] = $positionVal;
         return;

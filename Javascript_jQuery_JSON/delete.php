@@ -14,8 +14,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         return;
     }
     if (isset($_POST['delete'])) {
+        // Clear out the old position entries
+        $stmt = $pdo->prepare('DELETE FROM Position WHERE profile_id=:pid');
+        $stmt->execute(array( ':pid' => $_REQUEST['profile_id']));
+
         $stmt = $pdo->prepare("DELETE FROM profile where profile_id=:pid");
         $stmt->execute(["pid" => $_POST['profile_id']]);
+
         $_SESSION['success'] = "Record deleted";
         header("Location: index.php");
         return;

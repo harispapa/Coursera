@@ -11,7 +11,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Charilaos Papamatthaiou's - dc3c3c4e - View Page</title>
+    <title>Charilaos Papamatthaiou's - 2a0e8414 - View Page</title>
     <?php include_once ('bootstrap.php');?>
 </head>
 <body>
@@ -26,7 +26,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <ul id="position">
         <?php
             foreach( $rows as $position)
-                echo '<li>Year:'.$position['year'].': '.htmlentities($position['description']).'<li>';
+                echo '<li>Year:'.$position['year'].': '.htmlentities($position['description']).'</li>';
         ?>
     </ul>
     <p><a href="index.php">Done</a></p>

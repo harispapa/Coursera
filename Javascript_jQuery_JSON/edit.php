@@ -14,9 +14,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         header("Location: index.php");
         return;
     }
-    $isFormOk= checkAddEditFormFields();
-    if (!$isFormOk)
+    $positionVal = validatePos();
+    if (is_string($positionVal)){
         header("Location: edit.php?profile_id=".$_GET['profile_id']);
+        $_SESSION['error'] = $positionVal;
+        return;
+    }
     else{
         $stmt = $pdo->prepare('UPDATE profile SET user_id =:uid, first_name =:fn, last_name=:ln, email=:em, headline=:he, summary=:su WHERE user_id=:uid and profile_id=:pid');
         $stmt->execute(array(
