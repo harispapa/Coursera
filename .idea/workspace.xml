@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25056839-0a9b-4d48-9e70-0c4de913e622" name="Changes" comment="Complete Profiles app">
+      <change afterPath="$PROJECT_DIR$/CRUD_App/includes/app_config.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUD_App/includes/app_functions.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUD_App/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Database_Applications_in_PHP/autosapp/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript_jQuery_JSON/add_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript_jQuery_JSON/add_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="46351be0-7e55-48fe-a5b9-80b5bfa15306" name="localhost" port="8888" />
@@ -100,19 +103,27 @@
       <recent name="$PROJECT_DIR$/Building_Web_Apps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\apache\CRUD_App\includes" />
       <recent name="C:\xampp\htdocs\apache\Building_Database_Applications_in_PHP\autosapp" />
       <recent name="$PROJECT_DIR$/Building_Database_Applications_in_PHP" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps/rps" />
       <recent name="$PROJECT_DIR$/Building_Web_Apps" />
-      <recent name="$PROJECT_DIR$/Building_Web_Apps/assets/css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.php (1)">
+    <configuration name="index.php (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/apache/CRUD_App/index.php">
+      <method v="2" />
+    </configuration>
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/apache/Building_Database_Applications_in_PHP/autosapp/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="app_config.inc.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/CRUD_App/includes/app_config.inc.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.php (1)" />
+        <item itemvalue="PHP Script.app_config.inc.php" />
         <item itemvalue="JavaScript Debug.index.php" />
       </list>
     </recent_temporary>
@@ -166,6 +177,7 @@
       <workItem from="1653585039375" duration="528000" />
       <workItem from="1653602784062" duration="3191000" />
       <workItem from="1653632243470" duration="13490000" />
+      <workItem from="1653661732906" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the navbar for the china bistro project!">
       <created>1650227079004</created>
@@ -412,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653645701396</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Complete Profiles app">
+      <created>1653661942188</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1653661942188</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
