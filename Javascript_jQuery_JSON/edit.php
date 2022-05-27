@@ -3,24 +3,15 @@ include_once('pdo.php');
 include_once ('functions.php');
 
 $editPage = true;
+$siteTitle = "Charilaos Papamatthaiou's - 82577bed - Edit Page";
+$h1 = "<h1>Editing Profile for UMSI</h1>";
+
 checkForUserLogInStatus();
 if (isset($_GET['profile_id']) && is_numeric($_GET['profile_id'])) {
-    $stmt = $pdo->prepare('SELECT * FROM profile WHERE profile_id=:pid and user_id=:uid');
-    $stmt->execute(array(':uid' => $_SESSION['user_id'], ':pid' => $_GET['profile_id']));
-    $row = $stmt->fetch(PDO::FETCH_ASSOC);
-    $stmt = $pdo->prepare('SELECT * FROM position WHERE profile_id=:pid ORDER BY `rank`');
-    $stmt->execute(array(':pid' => $_GET['profile_id']));
-    $prows = $stmt->fetchALL(PDO::FETCH_ASSOC);
-    $stmt = $pdo->prepare('SELECT * FROM education WHERE profile_id=:pid ORDER BY `rank`');
-    $stmt->execute(array(':pid' => $_GET['profile_id']));
-    $erows = $stmt->fetchALL(PDO::FETCH_ASSOC);
-
-    $irows = [];
-    foreach ($erows as $erow){
-        $stmt = $pdo->prepare('SELECT * FROM institution WHERE institution_id=:iid');
-        $stmt->execute(array(':iid' => $erow['institution_id']));
-        $irows = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    }
+    $profile      = getProfileById($_GET['profile_id']);
+    $positions    = getPositionsById($_GET['profile_id']);
+    $educations   = getEducationById($_GET['profile_id']);
+    $institutions = getInstitutionsById($_GET['profile_id']);
 }
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if (isset($_POST['cancel'])){
@@ -34,21 +25,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         return;
     }
     else{
-        $stmt = $pdo->prepare('UPDATE profile SET user_id =:uid, first_name =:fn, last_name=:ln, email=:em, headline=:he, summary=:su WHERE user_id=:uid and profile_id=:pid');
-        $stmt->execute(array(
-                ':uid' => $_SESSION['user_id'],
-                ':pid' => $_GET['profile_id'],
-                ':fn' => $_POST['first_name'],
-                ':ln' => $_POST['last_name'],
-                ':em' => $_POST['email'],
-                ':he' => $_POST['headline'],
-                ':su' => $_POST['summary'])
-        );
+        $profileId = updateProfilesByIds();
+        deleteOldEducations($_GET['profile_id']);
         deleteOldPosition($_GET['profile_id']);
-        if ($pdo->lastInsertId() == 0 )
-            postPositionDB($_GET['profile_id']);
-        else
-            postPositionDB($pdo->lastInsertId());
+        postPositionDB($_GET['profile_id']);
+        $eRank=1;
+        for($i=1; $i<=9; $i++) {
+            if ( ! isset($_POST['edu_year'.$i]) ) continue;
+            if ( ! isset($_POST['edu_school'.$i]) ) continue;
+            $instituteId = postInstitutionDB($_POST['edu_school'.$i]);
+            postEducationDB($instituteId,$_GET['profile_id'], $eRank, $_POST['edu_year'.$i]);
+            $eRank++;
+        }
         $_SESSION['success'] = "Record updated";
         header("Location: index.php");
     }

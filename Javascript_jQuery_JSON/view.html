@@ -1,32 +1,30 @@
-<?php
-include_once('pdo.php');
-include_once ('functions.php');
-
-$stmt = $pdo->prepare('SELECT * FROM position WHERE profile_id=:pid ORDER BY `rank`;');
-$stmt->execute(array( "pid" => $_GET['profile_id']));
-$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Charilaos Papamatthaiou's - 2a0e8414 - View Page</title>
+    <title>Charilaos Papamatthaiou's - 82577bed - View Page</title>
     <?php include_once ('bootstrap.php');?>
 </head>
 <body>
 <div class="container">
     <h1>Profile information</h1>
-    <p>First Name: <?php if(isset($row['first_name'])) echo htmlentities($row['first_name']); ?></p>
-    <p>Last Name : <?php if(isset($row['last_name']))  echo htmlentities($row['last_name']) ; ?></p>
-    <p>Email:<?php if(isset($row['email'])) echo htmlentities($row['email']); ?></p>
-    <p>Headline: <?php if(isset($row['headline'])) echo htmlentities($row['headline']); ?></p>
-    <p>Summary: <?php if(isset($row['summary'])) echo htmlentities($row['summary']); ?></p>
+    <p>First Name: <?php if(isset($profile['first_name'])) echo htmlentities($profile['first_name']); ?></p>
+    <p>Last Name : <?php if(isset($profile['last_name']))  echo htmlentities($profile['last_name']) ; ?></p>
+    <p>Email:<?php if(isset($profile['email'])) echo htmlentities($profile['email']); ?></p>
+    <p>Headline: <?php if(isset($profile['headline'])) echo htmlentities($profile['headline']); ?></p>
+    <p>Summary: <?php if(isset($profile['summary'])) echo htmlentities($profile['summary']); ?></p>
+    <p>Education:</p>
+    <ul id="education">
+        <?php
+            foreach( $educations as $key => $education)
+                echo '<li>'.$education['year'].': '.htmlentities($schools[$key]['name']).'</li>';
+        ?>
+    </ul>
     <p>Position:</p>
     <ul id="position">
         <?php
-            foreach( $rows as $position)
-                echo '<li>Year:'.$position['year'].': '.htmlentities($position['description']).'</li>';
+            foreach( $positions as $position)
+                echo '<li>'.$position['year'].': '.htmlentities($position['description']).'</li>';
         ?>
     </ul>
     <p><a href="index.php">Done</a></p>

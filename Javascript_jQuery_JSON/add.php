@@ -15,23 +15,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         return;
     }
     else {
-        $stmt = $pdo->prepare('INSERT INTO profile (user_id, first_name, last_name, email, headline, summary) VALUES ( :uid, :fn, :ln, :em, :he, :su)');
-        $stmt->execute(array(
-                ':uid' => $_SESSION['user_id'],
-                ':fn' => $_POST['first_name'],
-                ':ln' => $_POST['last_name'],
-                ':em' => $_POST['email'],
-                ':he' => $_POST['headline'],
-                ':su' => $_POST['summary'])
-        );
-        $proNewId = $pdo->lastInsertId();
+        $proNewId = postProfileDB();
         postPositionDB($proNewId);
-        $instituteNewId= postInstitutionDB();
-        postEducationDB($instituteNewId,$proNewId);
+        $eRank=1;
+        for($i=1; $i<=9; $i++) {
+            if ( ! isset($_POST['edu_year'.$i]) ) continue;
+            if ( ! isset($_POST['edu_school'.$i]) ) continue;
+            $instituteId = postInstitutionDB($_POST['edu_school'.$i]);
+            postEducationDB($instituteId,$proNewId, $eRank, $_POST['edu_year'.$i]);
+            $eRank++;
+        }
         $_SESSION['success'] = "Profile added";
         header("Location: index.php");
     }
     return;
 }
+$siteTitle = "Charilaos Papamatthaiou's - 82577bed - Add Page";
+$h1 = "<h1>Adding Profile for UMSI</h1>";
+$profile = [];
 include_once ("add_form.html");
 ?>
